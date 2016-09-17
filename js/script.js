@@ -51,7 +51,7 @@ $(document).ready(function() {
 			  singleItem:true
 		});
 
-		//SmothScroll
+		//SmoothScroll
 		$('a[href*=\\#]').click(function() {
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 			&& location.hostname == this.hostname) {
@@ -65,8 +65,6 @@ $(document).ready(function() {
 			}
 		});
 		
-		//Subscribe
-		new UIMorphingButton( document.querySelector( '.morph-button' ) );
 		// for demo purposes only
 		[].slice.call( document.querySelectorAll( 'form button' ) ).forEach( function( bttn ) { 
 			bttn.addEventListener( 'click', function( ev ) { ev.preventDefault(); } );
